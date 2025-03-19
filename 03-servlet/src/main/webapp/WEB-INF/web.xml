@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>03-servlet</display-name>
+   
+  <servlet>
+  	<servlet-name>servlet1</servlet-name>
+  	<servlet-class>com.servlet.Servlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servlet1</servlet-name>
+  	<url-pattern>/Servlet1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>servlet2</servlet-name>
+  	<servlet-class>com.servlet.Servlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servlet2</servlet-name>
+  	<url-pattern>/Servlet2</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+  	<servlet-name>cookies1</servlet-name>
+  	<servlet-class>com.servlet.Cookies1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>cookies1</servlet-name>
+  	<url-pattern>/Cookies1</url-pattern>
+  </servlet-mapping>
+
+  
+
+
+
+
+
+
+  <welcome-file-list>
+    <welcome-file>home.jsp</welcome-file> <!-- add welcome page -->
+    
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+</web-app> 
